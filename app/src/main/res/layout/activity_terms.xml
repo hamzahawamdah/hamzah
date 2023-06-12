@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.Terms">
+
+    <ImageView
+        android:id="@+id/back_terms_profile"
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/leftarrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Terms &amp; Privacy Policy"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/back_terms_profile"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:text="Title"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_terms" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="20dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt sapien sed aliquet semper. Etiam porttitor pulvinar mauris quis condimentum. Sed sit amet luctus lorem, quis congue massa. In sodales purus a nibh tristique finibus. Aliquam ornare auctor risus, sed euismod libero blandit in. Quisque sit amet nisi at justo molestie ultricies. Aliquam tristique risus massa, non malesuada massa varius vel. Nulla a enim pretium sem accumsan viverra eu eu risus. Nullam condimentum facilisis cursus. Praesent ut tempor justo. Mauris ac diam odio. Quisque at ullamcorper enim. Duis fermentum ultricies ex eu posuere. Maecenas dapibus mattis facilisis. Aliquam pretium, lorem vel tincidunt hendrerit, sem nisl commodo nisl, non volutpat nunc leo a purus. Nunc hendrerit iaculis erat, luctus blandit orci hendrerit a."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
